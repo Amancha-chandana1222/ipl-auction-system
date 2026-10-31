@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #F4F6F9;
+}
+
+.container{
+    padding: 20px;
+}
+
+h1{
+    color: #0A1F44;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th{
+    background-color: #0A1F44;
+    color: white;
+    padding: 12px;
+}
+
+td{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Zebra Striping */
+
+tbody tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd){
+    background-color: white;
+}
+
+/* Hover Effect */
+
+tbody tr:hover{
+    background-color: #dbe9ff;
+    transition: 0.3s;
+}
+
+/* Inputs */
+
+input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+/* Buttons */
+
+button{
+    padding: 10px 15px;
+    background-color: #0A1F44;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #123C7A;
+}
+
+/* Budget Colors */
+
+.low-budget{
+    color: red;
+    font-weight: bold;
+}
+
+.medium-budget{
+    color: orange;
+    font-weight: bold;
+}
+
+.high-budget{
+    color: green;
+    font-weight: bold;
+}

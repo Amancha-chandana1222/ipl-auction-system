@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.App{
+  text-align: center;
+}
+
+h1{
+  color: darkblue;
+}
+
+nav{
+  background-color: darkblue;
+  padding: 15px;
+}
+
+nav a{
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover{
+  color: lightblue;
+}
