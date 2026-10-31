@@ -5,7 +5,10 @@ import java.util.List;
 
 import com.chandu.ipl_auction_backend.entity.Team;
 import com.chandu.ipl_auction_backend.repository.TeamRepository;
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {
+    "http://localhost:3000",
+    "https://ipl-auction-system-three.vercel.app"
+})
 
 @RestController
 @RequestMapping("/teams")

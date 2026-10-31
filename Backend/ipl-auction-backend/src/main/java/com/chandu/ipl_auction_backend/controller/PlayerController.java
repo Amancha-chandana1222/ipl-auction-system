@@ -6,7 +6,10 @@ import java.util.List;
 import com.chandu.ipl_auction_backend.entity.Player;
 import com.chandu.ipl_auction_backend.repository.PlayerRepository;
 
-@CrossOrigin(origins = "http://localhost:3000") // 👈 ADD THIS
+@CrossOrigin(origins = {
+    "http://localhost:3000",
+    "https://ipl-auction-system-three.vercel.app"
+})
 @RestController
 @RequestMapping("/players")
 public class PlayerController {

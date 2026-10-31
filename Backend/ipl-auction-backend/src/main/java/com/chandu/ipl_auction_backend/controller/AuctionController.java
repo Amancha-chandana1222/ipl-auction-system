@@ -9,7 +9,10 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/auction")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {
+    "http://localhost:3000",
+    "https://ipl-auction-system-three.vercel.app"
+})
 public class AuctionController {
 
     private final PlayerRepository playerRepository;
