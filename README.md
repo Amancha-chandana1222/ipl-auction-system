@@ -10,6 +10,15 @@ The application provides a user interface to manage teams and players, conduct a
 
 The system uses React.js for the frontend, Spring Boot for backend services, and MySQL for database management.
 
+## 🌐 Live Application
+
+**Frontend:** https://ipl-auction-system-three.vercel.app/
+
+**Backend:** Coming soon
+
+**Database:** MySQL (Coming soon)
+
+
 ## ✨ Features
 
 * **Team Management:** Add and manage IPL teams.
