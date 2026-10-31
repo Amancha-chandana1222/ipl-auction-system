@@ -14,10 +14,15 @@ The system uses React.js for the frontend, Spring Boot for backend services, and
 
 **Frontend:** https://ipl-auction-system-three.vercel.app/
 
-**Backend:** Coming soon
+**Backend:**  https://ipl-auction-system-ynqj.onrender.com
 
-**Database:** MySQL (Coming soon)
+## 🗄️ Database
 
+- **Technology:** MySQL 8.4.11
+- **Cloud Hosting:** Aiven
+- **Database Name:** `defaultdb`
+- **Tables:** `player`, `team`
+- **Status:** Deployed and Connected ✅
 
 ## ✨ Features
 
