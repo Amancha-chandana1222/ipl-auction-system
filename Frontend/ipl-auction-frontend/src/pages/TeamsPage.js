@@ -124,13 +124,13 @@ function TeamsPage() {
                 <td>
 
 <img
-    src={`/logos/${team.name.toLowerCase()}.png`}
+    src={`/logos/${team.name.toUpperCase()}.png`}
     alt={team.name}
     width="40"
     height="40"
     style={{
-        verticalAlign:"middle",
-        marginRight:"10px"
+        verticalAlign: "middle",
+        marginRight: "10px"
     }}
 />
 
